@@ -74,7 +74,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Vintage Collections Web APP](https://vintage-art-collection.netlify.app/)
+
 
 ## Loom Presentation Video Link
 - [Project Documentation](https://www.loom.com/share/7f50226cbb774d77923855cc24bd6b60)
