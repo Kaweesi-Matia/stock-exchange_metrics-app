@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ensure app renders as expected renders the Details page 1`] = `Promise {}`;
+
+exports[`Ensure app renders as expected renders the home page 1`] = `Promise {}`;
+
+exports[`expected to get a correct output  1`] = `Promise {}`;
+
+exports[`expected to get a correct output it must render 1`] = `Promise {}`;
+
+exports[`expected to get a correct output it must render the page for particu 1`] = `Promise {}`;
+
+exports[`expected to get a correct output it must render the page for particulars 1`] = `Promise {}`;
+
+exports[`expected to get a correct output must render the home p 1`] = `Promise {}`;
+
+exports[`expected to get a correct output must render the home page 1`] = `Promise {}`;
+
+exports[`expected to get a correct output renders the Details page 1`] = `Promise {}`;
+
+exports[`expected to get a correct output renders the home page 1`] = `Promise {}`;
