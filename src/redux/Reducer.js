@@ -1,3 +1,4 @@
+/*eslint-disable */
 export const baseUrl = 'https://api.binance.com/api/v3/ticker/24hr';
 export const GetStockData = (data) => ({
   type: 'GET_STOCK_DATA',
