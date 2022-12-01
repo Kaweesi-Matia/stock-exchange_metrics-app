@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 body {
-  background: #ec4b89;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(236, 76, 138);
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .App {
-  margin-left: 0;
-  margin-top: 0;
+  margin: 0;
   padding: 0;
   background: #f54a89;
 }
@@ -30,7 +34,7 @@ body {
 
 .columnDiv:nth-child(1) {
   max-width: 100%;
-  height: 200px;
+  height: 100%;
   background: #af198266;
 }
 
@@ -201,4 +205,133 @@ body {
   color: whitesmoke;
   border: none;
   background-color: transparent;
+}
+
+@media screen and (max-width: 750px) {
+  .symbol_name {
+    font-size: 18px;
+  }
+
+  .detailsDiv p {
+    height: 80px;
+    display: flex;
+  }
+
+  .information {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(33.33%, 1fr));
+    grid-auto-rows: 50%;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .columnDiv button {
+    border: none;
+    padding: 8px;
+    max-width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .columnDiv:nth-child(1) {
+    background: #af198266;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(2) {
+    background: #e84886;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(4) {
+    background: #af198266;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(3) {
+    background: #e84886;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(5) {
+    background: #d93786;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(6) {
+    background: #e84886;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(8) {
+    background: #d93786;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(7) {
+    background: #e84886;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(9) {
+    background: #d93786;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(10) {
+    background: #e84886;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(12) {
+    background: #d93786;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(11) {
+    background: #e84886;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(13) {
+    background: #d93786;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(14) {
+    background: #e84886;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(15) {
+    background: #e84886;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .columnDiv:nth-child(16) {
+    background: #d93786;
+    max-width: 100%;
+    height: 100%;
+  }
 }
