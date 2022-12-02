@@ -73,6 +73,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+- [Stock Exchange Metrics App](https://stock-exchange-metrics-app.vercel.app/)
 
 
 
@@ -190,3 +191,5 @@ Feel free to check the [issues page](../../issues/).
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
