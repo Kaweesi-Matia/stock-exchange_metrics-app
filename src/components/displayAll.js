@@ -11,7 +11,7 @@ function DisplayAll() {
   const Navigate = useNavigate();
   useEffect(() => {
     dispatch(FetchStockData());
-  });
+  }, []);
   const obtainDetails = (symbol) => {
     dispatch(ShowStockData(symbol));
   };
